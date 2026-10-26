@@ -1,0 +1,88 @@
+# ============================================================
+# Employee Turnover Analysis -- .gitignore
+# ============================================================
+
+# --------------------------
+# Python
+# --------------------------
+__pycache__/
+*.py[cod]
+*py.class
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+*.egg-link
+MANIFEST
+
+# --------------------------
+# Virtual Environments
+# --------------------------
+venv/
+.venv/
+env/
+ENV/
+.env
+.python-version
+
+# --------------------------
+# Jupyter Notebook
+# --------------------------
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# --------------------------
+# Saved Models (large binary files)
+# --------------------------
+*.pkl
+*.joblib
+*.onnx
+
+# --------------------------
+# IDE and Editor Files
+# --------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# --------------------------
+# OS Files
+# --------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# --------------------------
+# Logs and Reports
+# --------------------------
+*.log
+logs/
+*.out
+
+# --------------------------
+# Temporary Files
+# --------------------------
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
